@@ -126,10 +126,10 @@ Notes for CI311 exam.
 
 ### Operations Defined in OclMessage
 
-| Operation                   | Description                                                  |
-| --------------------------- | ------------------------------------------------------------ |
-| hasReturned( ) : Boolean    | True if type of template parameter is an operation call, and the called operation has return a value. |
-| result( )                   | Returns the result of the called operation, if type of template parameter is an operation call, and the called operation has returned a value. |
-| isSignalSent( ) : Boolean   | Returns true if the OclMessage represents the sending of a UML Signal. |
-| isOperationCall() : Boolean | Returns true if the OclMessage represents the sending of a UML Operation call. |
+| Operation                    | Description                                                  |
+| ---------------------------- | ------------------------------------------------------------ |
+| hasReturned( ) : Boolean     | True if type of template parameter is an operation call, and the called operation has return a value. |
+| result( )                    | Returns the result of the called operation, if type of template parameter is an operation call, and the called operation has returned a value. |
+| isSignalSent( ) : Boolean    | Returns true if the OclMessage represents the sending of a UML Signal. |
+| isOperationCall( ) : Boolean | Returns true if the OclMessage represents the sending of a UML Operation call. |
 
